@@ -35,25 +35,7 @@
 
 
   <!-- baidu webmaster push -->
-  <script type="text/javascript">
-      var timer = setInterval(function () {
-          if (document.body) {
-              clearInterval(timer);
-          }
-          else {
-              console.log(document.body);
-              return;
-          }
-          var loadJs = function (url) {
-            var el = document.createElement('script');
-            el.type = 'text/javascript';
-            el.src = url;
-            document.body.appendChild(el)
-            };
-          loadJs('http://push.zhanzhang.baidu.com/push.js?t=s');
-          loadJs('http://w.c-cnzz.com/cl.php');
-      }, 200);
-  </script>
+  <script src='//push.zhanzhang.baidu.com/push.js'></script>
 </head>
 
 <body class="home blog custom-background custom-font-enabled single-author">
@@ -64,8 +46,8 @@
         <a href="/" title="汐颜のBlog" rel="home">汐颜のBlog</a>
       </h1>
       
-        <!-- <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
-        <h2 class="site-description"><script>hitokoto();</script></h2> -->
+        <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
+        <h2 class="site-description"><script>hitokoto();</script></h2>
       
     </hgroup>
 
@@ -100,7 +82,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/search/index.html" data-id="cjjcxamsm000217y57db7t60j" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/search/index.html" data-id="cjjcxeykr0003iey54b0ldnf9" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -155,6 +137,10 @@
       <ul>
         
           <li>
+            <a href="/2018/07/08/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
             <a href="/2018/03/18/JavaScript-Debounce-Throttle/">JavaScript Debounce &amp; Throttle</a>
           </li>
         
@@ -167,7 +153,7 @@
   <aside class="widget">
     <h3 class="widget-title">Tags</h3>
     <div class="widget-content">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaScript/">JavaScript</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Debounce/">Debounce</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaScript/">JavaScript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Throttle/">Throttle</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </aside>
 
@@ -176,7 +162,7 @@
   <aside class="widget">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget-content tagcloud">
-      <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a>
+      <a href="/tags/Debounce/" style="font-size: 10px;">Debounce</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/Throttle/" style="font-size: 10px;">Throttle</a>
     </div>
   </aside>
 
@@ -188,7 +174,7 @@
     All rights reserved.</p>
     <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
 </footer>
-    <!-- <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script> -->
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 
 <script src="/js/jquery-2.0.3.min.js"></script>
 
