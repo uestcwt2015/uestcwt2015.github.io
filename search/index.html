@@ -2,29 +2,30 @@
 <html>
 <head>
   <meta charset="utf-8">
+
   
+  <meta name="description" content="一个前端鶸鸡" />
   
-  <meta name="description" content="汐颜" />
+
   
 
   
   
+
   
-  
-  
-  
-  <title>search | 汐颜のblog</title>
+  <title>search | 汐颜のBlog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="汐颜">
+  <meta name="description" content="一个前端鶸鸡">
 <meta property="og:type" content="website">
 <meta property="og:title" content="search">
 <meta property="og:url" content="http://yoursite.com/search/index.html">
-<meta property="og:site_name" content="汐颜のblog">
-<meta property="og:description" content="汐颜">
+<meta property="og:site_name" content="汐颜のBlog">
+<meta property="og:description" content="一个前端鶸鸡">
+<meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2018-02-25T13:07:55.753Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="search">
-<meta name="twitter:description" content="汐颜">
+<meta name="twitter:description" content="一个前端鶸鸡">
   
   
     <link rel="icon" href="/css/images/favicon.ico">
@@ -32,16 +33,35 @@
   <link rel="stylesheet" href="/css/style.css">
   
 
-  
+
   <!-- baidu webmaster push -->
-  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+  <script type="text/javascript">
+      var timer = setInterval(function () {
+          if (document.body) {
+              clearInterval(timer);
+          }
+          else {
+              console.log(document.body);
+              return;
+          }
+          var loadJs = function (url) {
+            var el = document.createElement('script');
+            el.type = 'text/javascript';
+            el.src = url;
+            document.body.appendChild(el)
+            };
+          loadJs('http://push.zhanzhang.baidu.com/push.js?t=s');
+          loadJs('http://w.c-cnzz.com/cl.php');
+      }, 200);
+  </script>
 </head>
+
 <body class="home blog custom-background custom-font-enabled single-author">
   <div id="page" class="hfeed site">
       <header id="masthead" class="site-header" role="banner">
     <hgroup>
       <h1 class="site-title">
-        <a href="/" title="汐颜のblog" rel="home">汐颜のblog</a>
+        <a href="/" title="汐颜のBlog" rel="home">汐颜のBlog</a>
       </h1>
       
         <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
@@ -79,7 +99,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/search/index.html" data-id="cjjcseq2s0003i8y5rzq6x0q1" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/search/index.html" data-id="cjjcwckor0002jgy5d591efd9" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -119,6 +139,16 @@
 </form></aside>
   
     
+  <aside class="widget">
+    <h3 class="widget-title">Music</h3>
+    <div class="widget-content">
+      <audio src="/source/bgmusic.mp3" controls="controls"
+             style="width:100%">
+        您的浏览器不支持 audio 标签。
+      </audio>
+    </div>
+  </aside>
+
   
     
   <aside class="widget">
@@ -137,10 +167,6 @@
         
           <li>
             <a href="/2018/03/18/JavaScript-Debounce-Throttle/">JavaScript Debounce &amp; Throttle</a>
-          </li>
-        
-          <li>
-            <a href="/2018/02/25/hello-world/">Hello World</a>
           </li>
         
       </ul>
@@ -169,11 +195,11 @@
 </div>
       </div>
       <footer id="colophon" role="contentinfo">
-    <p>&copy; 2018 wutong
+    <p>&copy; 2018 汐颜
     All rights reserved.</p>
     <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
 </footer>
-    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+    <!-- <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script> -->
 
 <script src="/js/jquery-2.0.3.min.js"></script>
 

@@ -2,28 +2,29 @@
 <html>
 <head>
   <meta charset="utf-8">
+
   
+  <meta name="description" content="一个前端鶸鸡" />
   
-  <meta name="description" content="汐颜" />
+
   
 
   
   
+
   
-  
-  
-  
-  <title>汐颜のblog</title>
+  <title>汐颜のBlog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="汐颜">
+  <meta name="description" content="一个前端鶸鸡">
 <meta property="og:type" content="website">
-<meta property="og:title" content="汐颜のblog">
+<meta property="og:title" content="汐颜のBlog">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="汐颜のblog">
-<meta property="og:description" content="汐颜">
+<meta property="og:site_name" content="汐颜のBlog">
+<meta property="og:description" content="一个前端鶸鸡">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="汐颜のblog">
-<meta name="twitter:description" content="汐颜">
+<meta name="twitter:title" content="汐颜のBlog">
+<meta name="twitter:description" content="一个前端鶸鸡">
   
   
     <link rel="icon" href="/css/images/favicon.ico">
@@ -31,16 +32,35 @@
   <link rel="stylesheet" href="/css/style.css">
   
 
-  
+
   <!-- baidu webmaster push -->
-  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+  <script type="text/javascript">
+      var timer = setInterval(function () {
+          if (document.body) {
+              clearInterval(timer);
+          }
+          else {
+              console.log(document.body);
+              return;
+          }
+          var loadJs = function (url) {
+            var el = document.createElement('script');
+            el.type = 'text/javascript';
+            el.src = url;
+            document.body.appendChild(el)
+            };
+          loadJs('http://push.zhanzhang.baidu.com/push.js?t=s');
+          loadJs('http://w.c-cnzz.com/cl.php');
+      }, 200);
+  </script>
 </head>
+
 <body class="home blog custom-background custom-font-enabled single-author">
   <div id="page" class="hfeed site">
       <header id="masthead" class="site-header" role="banner">
     <hgroup>
       <h1 class="site-title">
-        <a href="/" title="汐颜のblog" rel="home">汐颜のblog</a>
+        <a href="/" title="汐颜のBlog" rel="home">汐颜のBlog</a>
       </h1>
       
         <script type="text/javascript" src="http://api.hitokoto.us/rand?encode=js&charset=utf-8"></script>
@@ -80,7 +100,7 @@
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2018/03/18/JavaScript-Debounce-Throttle/" data-id="cjjcseq2q0002i8y5huko57tt" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://yoursite.com/2018/03/18/JavaScript-Debounce-Throttle/" data-id="cjjcwckos0003jgy564p6zr37" class="leave-reply bdsharebuttonbox" data-cmd="more"></a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -120,57 +140,6 @@
 
 
   
-    <article id="post-hello-world" class="post-hello-world post type-post status-publish format-standard hentry">
-    <!---->
-
-      <header class="entry-header">
-        
-        
-  
-    <h1 class="entry-title">
-      <a class="article-title" href="/2018/02/25/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <div class="comments-link">
-            
-            <a href="javascript:void(0);" data-url="http://yoursite.com/2018/02/25/hello-world/" data-id="cjjcseq2l0000i8y5abwf34rs" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
-        </div><!-- .comments-link -->
-      </header><!-- .entry-header -->
-
-    <div class="entry-content">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div><!-- .entry-content -->
-
-    <footer class="entry-meta">
-    <a href="/2018/02/25/hello-world/">
-    <time datetime="2018-02-25T10:43:02.575Z" class="entry-date">
-        2018-02-25
-    </time>
-</a>
-    
-    
-    </footer>
-</article>
-
-
-
-
-
-
-  
   
 
 </div></div>
@@ -184,6 +153,16 @@
 </form></aside>
   
     
+  <aside class="widget">
+    <h3 class="widget-title">Music</h3>
+    <div class="widget-content">
+      <audio src="/source/bgmusic.mp3" controls="controls"
+             style="width:100%">
+        您的浏览器不支持 audio 标签。
+      </audio>
+    </div>
+  </aside>
+
   
     
   <aside class="widget">
@@ -202,10 +181,6 @@
         
           <li>
             <a href="/2018/03/18/JavaScript-Debounce-Throttle/">JavaScript Debounce &amp; Throttle</a>
-          </li>
-        
-          <li>
-            <a href="/2018/02/25/hello-world/">Hello World</a>
           </li>
         
       </ul>
@@ -234,11 +209,11 @@
 </div>
       </div>
       <footer id="colophon" role="contentinfo">
-    <p>&copy; 2018 wutong
+    <p>&copy; 2018 汐颜
     All rights reserved.</p>
     <p>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></p>
 </footer>
-    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+    <!-- <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script> -->
 
 <script src="/js/jquery-2.0.3.min.js"></script>
 
