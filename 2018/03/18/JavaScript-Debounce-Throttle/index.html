@@ -3,7 +3,7 @@
 
 
 
-<html class="theme-next pisces" lang="zh-CN">
+<html class="theme-next pisces" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -118,9 +118,9 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="JavaScript Debounce &amp; Throttle">
 <meta property="og:url" content="http://yoursite.com/2018/03/18/JavaScript-Debounce-Throttle/index.html">
-<meta property="og:site_name" content="汐颜のBlog">
+<meta property="og:site_name" content="Hi Vermouth">
 <meta property="og:description" content="探究一下函数节流和函数去抖的原理及实现">
-<meta property="og:locale" content="zh-CN">
+<meta property="og:locale" content="zh-Hans">
 <meta property="og:updated_time" content="2018-07-08T14:24:14.218Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript Debounce &amp; Throttle">
@@ -141,13 +141,13 @@
     since: '2/9/2014 11:30:00',
     onlineAPI: '',
     site: {
-      title: '汐颜のBlog',
+      title: 'Hi Vermouth',
       subtitle: '',
-      author: '汐颜'
+      author: 'Vermouth'
     },
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -185,7 +185,7 @@
 
 
 
-  <title>JavaScript Debounce & Throttle | 汐颜のBlog</title>
+  <title>JavaScript Debounce & Throttle | Hi Vermouth</title>
   
 
 
@@ -206,7 +206,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -227,7 +227,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            首页
           </a>
         </li>
       
@@ -237,7 +237,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archives
+            归档
           </a>
         </li>
       
@@ -277,7 +277,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-rocket"></i> <br />
             
-            About
+            关于
           </a>
         </li>
       
@@ -305,10 +305,10 @@
         <span class="logo-line-before"><i></i></span>
         <div class="site-title">
           <div id="animate" class="animate">
-            <span>汐</span><span>颜</span><span>の</span><span>B</span><span>l</span><span>o</span><span>g</span>
+            <span>H</span><span>i</span><span> </span><span>V</span><span>e</span><span>r</span><span>m</span><span>o</span><span>u</span><span>t</span><span>h</span>
           </div>
           <div id="guide" class="guide">
-            <span>汐</span><span>颜</span><span>の</span><span>B</span><span>l</span><span>o</span><span>g</span>
+            <span>H</span><span>i</span><span> </span><span>V</span><span>e</span><span>r</span><span>m</span><span>o</span><span>u</span><span>t</span><span>h</span>
           </div>
         </div>
         <span class="logo-line-after"><i></i></span>
@@ -328,9 +328,9 @@
   </div>
 </div>
 <div class="site-master" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-master-avatar" itemprop="image" src="/images/DIYgod.jpg" alt="汐颜" />
+    <img class="site-master-avatar" itemprop="image" src="/images/DIYgod.jpg" alt="Vermouth" />
     <h2 class="site-master-description" itemprop="description">
-        一个前端鶸鸡
+        前端菜鸡|重度死宅
     </h2>
 </div>
 
@@ -377,13 +377,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/18/JavaScript-Debounce-Throttle/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="汐颜">
+      <meta itemprop="name" content="Vermouth">
       <meta itemprop="description" content="">
       <meta itemprop="image" content="/images/DIYgod.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="汐颜のBlog">
+      <meta itemprop="name" content="Hi Vermouth">
     </span>
 
     
@@ -401,9 +401,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-03-18T11:34:20+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-18T11:34:20+08:00">
                 2018-03-18
               </time>
             
@@ -422,7 +422,7 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">In</span>
+                <span class="post-meta-item-text">分类于</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -516,21 +516,21 @@ _.throttle = function (func, wait, options) {
         <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
   <div></div>
   <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>Donate</span>
+    <span>赞赏</span>
   </button>
   <div id="QR" style="display: none;">
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/wechatpay.png" alt="汐颜 WeChat Pay"/>
-        <p>WeChat Pay</p>
+        <img id="wechat_qr" src="/images/wechatpay.png" alt="Vermouth 微信扫一扫，向我赞赏"/>
+        <p>微信扫一扫，向我赞赏</p>
       </div>
     
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/alipay.png" alt="汐颜 Alipay"/>
-        <p>Alipay</p>
+        <img id="alipay_qr" src="/images/alipay.png" alt="Vermouth 支付宝扫一扫，向我赞赏"/>
+        <p>支付宝扫一扫，向我赞赏</p>
       </div>
     
 
@@ -695,10 +695,10 @@ _.throttle = function (func, wait, options) {
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Table of Contents
+            文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Overview
+            站点概览
           </li>
         </ul>
       
@@ -709,7 +709,7 @@ _.throttle = function (func, wait, options) {
             
               <img class="site-author-image" itemprop="image"
                 src="/images/card.jpg"
-                alt="汐颜" />
+                alt="Vermouth" />
             
               <p class="site-author-name" itemprop="name"><span style="opacity:.2;">网红</span>DIYgod</p>
               <p class="site-description motion-element" itemprop="description">你能抓到我么？</p>
@@ -761,7 +761,7 @@ _.throttle = function (func, wait, options) {
                 <a href="/archives/">
               
                   <span class="site-state-item-count">4</span>
-                  <span class="site-state-item-name">posts</span>
+                  <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
@@ -772,7 +772,7 @@ _.throttle = function (func, wait, options) {
               <div class="site-state-item site-state-categories">
                 
                   <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">categories</span>
+                  <span class="site-state-item-name">分类</span>
                 
               </div>
             
@@ -831,13 +831,13 @@ _.throttle = function (func, wait, options) {
         <p>博客已萌萌哒运行<span id="since"></span><span class="my-face">(●'◡'●)ﾉ♥</span></p>
 <p>custom text</p>
 
-<p>© <span itemprop="copyrightYear">2018</span> 汐颜のBlog.
+<p>© <span itemprop="copyrightYear">2018</span> Hi Vermouth.
     由 <a href="https://hexo.io/" target="_blank" class="external" rel="nofollow">Hexo</a> 强力驱动.
     Theme By <a href="https://github.com/DIYgod/hexo-theme-sagiri" target="_blank" class="external" rel="nofollow">Sagiri</a> v0.0.4.
     <a href="/sitemap.xml" target="_blank">站点地图</a>.
     xxxx.
 </p>
-<p>Made with <i class="fa fa-heart throb" style="color: #d43f57;"></i> by <span class="author" itemprop="copyrightHolder">汐颜</span>. </p>
+<p>Made with <i class="fa fa-heart throb" style="color: #d43f57;"></i> by <span class="author" itemprop="copyrightHolder">Vermouth</span>. </p>
 
         
 
